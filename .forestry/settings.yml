@@ -4,11 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: pages/contact.md
-  label: Contacto
-  match: "**/*"
-  read_only: false
+- type: directory
+  path: src/pages
+  label: Paginas
+  create: documents
+  match: "*.md"
 - type: heading
   label: Content
 - type: directory
