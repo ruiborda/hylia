@@ -9,6 +9,8 @@ sections:
   label: Paginas
   create: documents
   match: "*.md"
+  templates:
+  - post
 - type: heading
   label: Content
 - type: directory
